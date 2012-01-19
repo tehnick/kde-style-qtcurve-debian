@@ -1,0 +1,17 @@
+author: Fathi Boudra <fabo@debian.org>
+
+fix ftbfs: missing terminating " character.
+see Debian bug #541667
+http://bugs.debian.org/541667
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -73,7 +73,7 @@ if (NOT QTC_QT_ONLY)
+ endif (NOT QTC_QT_ONLY)
+ find_package(Qt4 REQUIRED)
+ 
+-configure_file(config.h.cmake ${CMAKE_BINARY_DIR}/config.h)
++configure_file(config.h.cmake ${CMAKE_BINARY_DIR}/config.h @ONLY)
+ 
+ if (NOT QTC_QT_ONLY)
+     find_package(KDE4 REQUIRED)

@@ -1,0 +1,72 @@
+This package was debianized by:
+
+    Bastian Venthur <venthur@debian.org> on Fri, 25 May 2007 12:52:24 +0200.
+
+It was downloaded from:
+
+    http://www.kde-look.org/content/show.php?content=40492
+
+Upstream Author:
+
+    Craig Drummond <craig.p.drummond@googlemail.com>
+
+Copyright:
+
+    Copyright © 2003-2010 Craig Drummond
+
+Copyright for QtCurve Kwin decoration:
+
+    ResizeCorner class is based on the window decoration "Bespin"
+    Copyright © 2008 Thomas Lübking <baghira-style@gmx.net>
+
+    based on the window decoration "Plastik"
+    Copyright © 2003-2005 Sandro Giessl <sandro@giessl.com>
+
+    based on the window decoration "Web"
+    Copyright © 2001 Rik Hemsley (rikkus) <rik@kde.org>
+
+Copyright for macmenu style:
+
+    Bespin mac-a-like XBar KDE4
+    Copyright © 2007 Thomas Luebking <thomas.luebking@web.de>
+
+    and is licensed under the LGPL version 2,
+    see `/usr/share/common-licenses/LGPL-2'.
+
+Copyright from common/colorutils.c:
+
+    This file is taken from kcolorspaces.cpp and kcolorutils.cpp from kdelibs
+    The code has been modified to work with QColor (Qt3 &Qt4) and GdkColor
+    This file is part of the KDE project
+
+    Copyright © 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+    Copyright © 2007 Olaf Schmidt <ojschmidt@kde.org>
+
+    and is licensed under the LGPL version 2+, see
+    `/usr/share/common-licenses/LGPL-2' and `/usr/share/common-licenses/LGPL-3'.
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License version 2 as
+    published by the Free Software Foundation.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+The Debian packaging is:
+
+    Copyright (C) 2009-2010 Fathi Boudra <fabo@debian.org>
+    Copyright (C) 2007-2008 Bastian Venthur <venthur@debian.org>
+
+and is licensed under the GPL version 2,
+see `/usr/share/common-licenses/GPL-2'.

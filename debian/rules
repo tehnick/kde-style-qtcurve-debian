@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+DEB_KDE_LINK_WITH_AS_NEEDED := yes
+UPSTREAM_VERSION ?= $(shell uscan --dehs | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --parallel --list-missing --with kde
+
+get-orig-source:
+	uscan --verbose --force-download --no-symlink
+	mv ../QtCurve-KDE4-$(UPSTREAM_VERSION).tar.bz2 ../kde-style-qtcurve_$(UPSTREAM_VERSION).orig.tar.bz2
+
+.PHONY: override_dh_auto_test
