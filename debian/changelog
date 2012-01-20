@@ -1,3 +1,17 @@
+kde-style-qtcurve (1.8.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * New maintainer of the package. (Closes: #641953)
+  * Vcs-* fields in debian/control were updated.
+  * File debian/copyright was rewritten in according to DEP-5.
+    All files were rechecked, copyright information was updated.
+  * Short and long descriptions of packages were updated.
+  * Added new package qtcurve-i18n with translation files.
+  * Added file debian/03_fix_spelling_errors.diff
+    (Closes: #648108) (LP: #852957)
+
+ -- Boris Pek <tehnick-8@mail.ru>  Fri, 20 Jan 2012 23:51:07 +0200
+
 kde-style-qtcurve (1.8.7-1) unstable; urgency=low
 
   * New upstream release.

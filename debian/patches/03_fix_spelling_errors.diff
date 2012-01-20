@@ -1,0 +1,216 @@
+Description: Fix for spelling errors
+Author: Boris Pek <tehnick-8@mail.ru>
+Last-Update: 2012-01-20
+
+--- a/config/qtcurveconfigbase.ui
++++ b/config/qtcurveconfigbase.ui
+@@ -2361,7 +2361,7 @@
+        <item row="7" column="1">
+         <widget class="QCheckBox" name="titlebarButtons_custom">
+          <property name="toolTip">
+-          <string>&lt;p&gt;If enabled, the titlebar buttons will be drawn using the cusom colors defined in the next page.</string>
++          <string>&lt;p&gt;If enabled, the titlebar buttons will be drawn using the custom colors defined in the next page.</string>
+          </property>
+          <property name="text">
+           <string>Use custom background colors</string>
+@@ -3702,7 +3702,7 @@
+         <widget class="QCheckBox" name="fixParentlessDialogs">
+          <property name="toolTip">
+           <string>&lt;p&gt;&lt;b&gt;Warning: Experimental!&lt;/b&gt;&lt;/p&gt;
+-&lt;p&gt;Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs that have no 'parent'. This causes the dialog to recieve an entry in the taskbar, and allows the dialog to be minimised independantly of the main application window.&lt;/p&gt;
++&lt;p&gt;Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs that have no 'parent'. This causes the dialog to receive an entry in the taskbar, and allows the dialog to be minimised independantly of the main application window.&lt;/p&gt;
+ 
+ &lt;p&gt;If you enable this option, QtCurve will try to 'fix' this by assigning the dialogs a parent. &lt;/p&gt;
+ 
+@@ -4398,7 +4398,7 @@
+              </sizepolicy>
+             </property>
+             <property name="text">
+-             <string>&lt;i&gt;&lt;p&gt;QtCurve uses dark/light borders to create etch and shadow effects. By default QtCurve tries to lighten (or darken) the parent's background to achieve this - if no parent can be found, then white/black is used with an alpha value set. This behaviour maybe overriden, and alpha values always used, by checking the option above.&lt;/p&gt;</string>
++             <string>&lt;i&gt;&lt;p&gt;QtCurve uses dark/light borders to create etch and shadow effects. By default QtCurve tries to lighten (or darken) the parent's background to achieve this - if no parent can be found, then white/black is used with an alpha value set. This behaviour maybe overridden, and alpha values always used, by checking the option above.&lt;/p&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+--- a/po/qtcurve.pot
++++ b/po/qtcurve.pot
+@@ -3100,7 +3100,7 @@ msgstr ""
+ #. i18n: ectx: property (toolTip), widget (QCheckBox, titlebarButtons_custom)
+ #: po/rc.cpp:908 rc.cpp:908
+ msgid ""
+-"<p>If enabled, the titlebar buttons will be drawn using the cusom colors "
++"<p>If enabled, the titlebar buttons will be drawn using the custom colors "
+ "defined in the next page."
+ msgstr ""
+ 
+@@ -4029,7 +4029,7 @@ msgstr ""
+ msgid ""
+ "<p><b>Warning: Experimental!</b></p>\n"
+ "<p>Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs "
+-"that have no 'parent'. This causes the dialog to recieve an entry in the "
++"that have no 'parent'. This causes the dialog to receive an entry in the "
+ "taskbar, and allows the dialog to be minimised independantly of the main "
+ "application window.</p>\n"
+ "\n"
+@@ -4425,7 +4425,7 @@ msgid ""
+ "<i><p>QtCurve uses dark/light borders to create etch and shadow effects. By "
+ "default QtCurve tries to lighten (or darken) the parent's background to "
+ "achieve this - if no parent can be found, then white/black is used with an "
+-"alpha value set. This behaviour maybe overriden, and alpha values always "
++"alpha value set. This behaviour maybe overridden, and alpha values always "
+ "used, by checking the option above.</p>"
+ msgstr ""
+ 
+--- a/po/tr.po
++++ b/po/tr.po
+@@ -3255,7 +3255,7 @@ msgstr "Yan çubuklarda standart düğme görünümü"
+ #: po/rc.cpp:908 rc.cpp:908
+ #, fuzzy
+ msgid ""
+-"<p>If enabled, the titlebar buttons will be drawn using the cusom colors "
++"<p>If enabled, the titlebar buttons will be drawn using the custom colors "
+ "defined in the next page."
+ msgstr ""
+ "Bu ayar fare üzerlerine geldiğinde gereçlerin yüzde kaç oranda "
+@@ -4242,7 +4242,7 @@ msgstr "Yetim diyalogları 'tamir et'"
+ msgid ""
+ "<p><b>Warning: Experimental!</b></p>\n"
+ "<p>Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs "
+-"that have no 'parent'. This causes the dialog to recieve an entry in the "
++"that have no 'parent'. This causes the dialog to receive an entry in the "
+ "taskbar, and allows the dialog to be minimised independantly of the main "
+ "application window.</p>\n"
+ "\n"
+@@ -4654,7 +4654,7 @@ msgid ""
+ "<i><p>QtCurve uses dark/light borders to create etch and shadow effects. By "
+ "default QtCurve tries to lighten (or darken) the parent's background to "
+ "achieve this - if no parent can be found, then white/black is used with an "
+-"alpha value set. This behaviour maybe overriden, and alpha values always "
++"alpha value set. This behaviour maybe overridden, and alpha values always "
+ "used, by checking the option above.</p>"
+ msgstr ""
+ 
+@@ -5653,7 +5653,7 @@ msgstr "necmettin.begiter@gmail.com"
+ #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+ #~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Some applications - "
+ #~ "such as Kate, Kaffeine, and GIMP - produce dialogs that have no 'parent'. "
+-#~ "This causes the dialog to recieve an entry in the taskbar, and allows the "
++#~ "This causes the dialog to receive an entry in the taskbar, and allows the "
+ #~ "dialog to be minimised independantly of the main application window. </"
+ #~ "p>\n"
+ #~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+--- a/po/uk.po
++++ b/po/uk.po
+@@ -3387,7 +3387,7 @@ msgstr "Стандартний колір кнопок"
+ #. i18n: ectx: property (toolTip), widget (QCheckBox, titlebarButtons_custom)
+ #: po/rc.cpp:908 rc.cpp:908
+ msgid ""
+-"<p>If enabled, the titlebar buttons will be drawn using the cusom colors "
++"<p>If enabled, the titlebar buttons will be drawn using the custom colors "
+ "defined in the next page."
+ msgstr ""
+ "<p>Якщо буде позначено цей пункт, кнопки смужки заголовка буде намальовано "
+@@ -4442,7 +4442,7 @@ msgstr "Немодальні діалогові вікна:"
+ msgid ""
+ "<p><b>Warning: Experimental!</b></p>\n"
+ "<p>Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs "
+-"that have no 'parent'. This causes the dialog to recieve an entry in the "
++"that have no 'parent'. This causes the dialog to receive an entry in the "
+ "taskbar, and allows the dialog to be minimised independantly of the main "
+ "application window.</p>\n"
+ "\n"
+@@ -4948,7 +4948,7 @@ msgid ""
+ "<i><p>QtCurve uses dark/light borders to create etch and shadow effects. By "
+ "default QtCurve tries to lighten (or darken) the parent's background to "
+ "achieve this - if no parent can be found, then white/black is used with an "
+-"alpha value set. This behaviour maybe overriden, and alpha values always "
++"alpha value set. This behaviour maybe overridden, and alpha values always "
+ "used, by checking the option above.</p>"
+ msgstr ""
+ "<i><p>QtCurve використовує для створення ефектів краю та тіні темні/світлі "
+--- a/po/zh_CN.po
++++ b/po/zh_CN.po
+@@ -1438,7 +1438,7 @@ msgstr "常规按钮颜色"
+ 
+ #: build/config/ui_qtcurveconfigbase.h:4190
+ msgid ""
+-"<p>If enabled, the titlebar buttons will be drawn using the cusom colors "
++"<p>If enabled, the titlebar buttons will be drawn using the custom colors "
+ "defined in the next page."
+ msgstr "<p>如果启用该项，标题栏按钮会用下一页中的自定义颜色绘制。"
+ 
+@@ -2127,7 +2127,7 @@ msgstr "无父对话框："
+ msgid ""
+ "<p><b>Warning: Experimental!</b></p>\n"
+ "<p>Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs "
+-"that have no 'parent'. This causes the dialog to recieve an entry in the "
++"that have no 'parent'. This causes the dialog to receive an entry in the "
+ "taskbar, and allows the dialog to be minimised independantly of the main "
+ "application window.</p>\n"
+ "\n"
+@@ -2491,7 +2491,7 @@ msgid ""
+ "<i><p>QtCurve uses dark/light borders to create etch and shadow effects. By "
+ "default QtCurve tries to lighten (or darken) the parent's background to "
+ "achieve this - if no parent can be found, then white/black is used with an "
+-"alpha value set. This behaviour maybe overriden, and alpha values always "
++"alpha value set. This behaviour maybe overridden, and alpha values always "
+ "used, by checking the option above.</p>"
+ msgstr ""
+ "<i><p>QtCurve使用“深暗/光亮”边框来实现蚀刻和阴影效果。默认情况下，QtCurve会视"
+--- a/po/zh_HK.po
++++ b/po/zh_HK.po
+@@ -1439,7 +1439,7 @@ msgstr "常規按鈕顔色"
+ 
+ #: build/config/ui_qtcurveconfigbase.h:4190
+ msgid ""
+-"<p>If enabled, the titlebar buttons will be drawn using the cusom colors "
++"<p>If enabled, the titlebar buttons will be drawn using the custom colors "
+ "defined in the next page."
+ msgstr "<p>如果啓用該項，標題欄按鈕會用下一頁中的自訂顔色繪制。"
+ 
+@@ -2128,7 +2128,7 @@ msgstr "無父對話窗："
+ msgid ""
+ "<p><b>Warning: Experimental!</b></p>\n"
+ "<p>Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs "
+-"that have no 'parent'. This causes the dialog to recieve an entry in the "
++"that have no 'parent'. This causes the dialog to receive an entry in the "
+ "taskbar, and allows the dialog to be minimised independantly of the main "
+ "application window.</p>\n"
+ "\n"
+@@ -2492,7 +2492,7 @@ msgid ""
+ "<i><p>QtCurve uses dark/light borders to create etch and shadow effects. By "
+ "default QtCurve tries to lighten (or darken) the parent's background to "
+ "achieve this - if no parent can be found, then white/black is used with an "
+-"alpha value set. This behaviour maybe overriden, and alpha values always "
++"alpha value set. This behaviour maybe overridden, and alpha values always "
+ "used, by checking the option above.</p>"
+ msgstr ""
+ "<i><p>QtCurve使用“深暗/光亮”邊框來實現蝕刻和陰影效果。默認情況下，QtCurve會試"
+--- a/po/zh_TW.po
++++ b/po/zh_TW.po
+@@ -1440,7 +1440,7 @@ msgstr "常規按鈕顔色"
+ 
+ #: build/config/ui_qtcurveconfigbase.h:4190
+ msgid ""
+-"<p>If enabled, the titlebar buttons will be drawn using the cusom colors "
++"<p>If enabled, the titlebar buttons will be drawn using the custom colors "
+ "defined in the next page."
+ msgstr "<p>如果啓用該項，標題列按鈕會用下一頁中的自訂顔色繪制。"
+ 
+@@ -2129,7 +2129,7 @@ msgstr "無父對話窗："
+ msgid ""
+ "<p><b>Warning: Experimental!</b></p>\n"
+ "<p>Some applications - such as Kate, Kaffeine, and GIMP - produce dialogs "
+-"that have no 'parent'. This causes the dialog to recieve an entry in the "
++"that have no 'parent'. This causes the dialog to receive an entry in the "
+ "taskbar, and allows the dialog to be minimised independantly of the main "
+ "application window.</p>\n"
+ "\n"
+@@ -2493,7 +2493,7 @@ msgid ""
+ "<i><p>QtCurve uses dark/light borders to create etch and shadow effects. By "
+ "default QtCurve tries to lighten (or darken) the parent's background to "
+ "achieve this - if no parent can be found, then white/black is used with an "
+-"alpha value set. This behaviour maybe overriden, and alpha values always "
++"alpha value set. This behaviour maybe overridden, and alpha values always "
+ "used, by checking the option above.</p>"
+ msgstr ""
+ "<i><p>QtCurve使用“深暗/光亮”邊框來實現蝕刻和陰影效果。默認情況下，QtCurve會試"

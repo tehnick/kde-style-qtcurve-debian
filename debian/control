@@ -2,25 +2,25 @@ Source: kde-style-qtcurve
 Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>
+Uploaders: Boris Pek <tehnick-8@mail.ru>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.4),
  kdelibs5-dev (>= 4:4.3.4), kdebase-workspace-dev(>= 4:4.3.4), libx11-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde-look.org/content/show.php?content=40492
-Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kde-style-qtcurve/trunk/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kde-style-qtcurve/?op=log
+Vcs-Git: git://github.com/tehnick/kde-style-qtcurve-debian.git
+Vcs-Browser: https://github.com/tehnick/kde-style-qtcurve-debian
 
 Package: kde-style-qtcurve
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kwin-style-qtcurve
 Suggests: gtk2-engines-qtcurve
-Description: Unified widget styles for KDE and GTK+
+Description: QtCurve widget style for KDE 4
+ This package contains the QtCurve widget style for KDE 4.
+ .
  QtCurve is a set of widget styles for KDE and GTK+. It provides a consistent
  look between KDE and GTK+ applications, which is easy on the eyes and visually
  pleasing.
- .
- This package contains the QtCurve widget style for KDE 4.
  .
  The corresponding GTK+ theme engine can be found in gtk2-engines-qtcurve
  package.
@@ -30,22 +30,38 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: kde-style-qtcurve
 Suggests: gtk2-engines-qtcurve
-Description: Unified window decoration for KDE and GTK+
+Description: QtCurve window decoration for KWin
+ This package contains the QtCurve window decoration for KWin.
+ .
  QtCurve is a set of widget styles for KDE and GTK+. It provides a consistent
  look between KDE and GTK+ applications, which is easy on the eyes and visually
  pleasing.
  .
- This package contains the QtCurve window decoration for KWin.
- .
  The corresponding GTK+ theme engine can be found in gtk2-engines-qtcurve
  package.
 
+Package: qtcurve-i18n
+Architecture: all
+Depends: ${misc:Depends}
+Description: Translation files for QtCurve
+ This package contains translation files for QtCurve.
+ .
+ QtCurve is a set of widget styles for KDE and GTK+. It provides a consistent
+ look between KDE and GTK+ applications, which is easy on the eyes and visually
+ pleasing.
+
 Package: qtcurve
 Architecture: any
-Depends: ${misc:Depends}, kde-style-qtcurve, kwin-style-qtcurve, gtk2-engines-qtcurve
-Description: Unified window decoration for KDE and GTK+
- This is an empty dummy package which will drag the following packages:
+Depends: ${misc:Depends},
+ kde-style-qtcurve, kwin-style-qtcurve,
+ gtk2-engines-qtcurve, qtcurve-i18n
+Description: Unified window decoration for KDE and GTK+ (meta-package)
+ This package installs all packages related with QtCurve:
   * kde-style-qtcurve
   * kwin-style-qtcurve
   * gtk2-engines-qtcurve
- in your system.
+  * qtcurve-i18n
+ .
+ QtCurve is a set of widget styles for KDE and GTK+. It provides a consistent
+ look between KDE and GTK+ applications, which is easy on the eyes and visually
+ pleasing.
