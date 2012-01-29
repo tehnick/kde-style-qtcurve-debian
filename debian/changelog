@@ -7,7 +7,7 @@ kde-style-qtcurve (1.8.9-1) unstable; urgency=low
     All files were rechecked, copyright information was updated.
   * Short and long descriptions of packages were updated.
   * Added new package qtcurve-i18n with translation files.
-  * Added file debian/03_fix_spelling_errors.diff
+  * Added file debian/patches/03_fix_spelling_errors.diff
     (Closes: #648108) (LP: #852957)
 
  -- Boris Pek <tehnick-8@mail.ru>  Fri, 20 Jan 2012 23:51:07 +0200
