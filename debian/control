@@ -1,8 +1,7 @@
 Source: kde-style-qtcurve
 Section: kde
 Priority: optional
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Boris Pek <tehnick-8@mail.ru>
+Maintainer: Boris Pek <tehnick-8@mail.ru>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.4),
  kdelibs5-dev (>= 4:4.3.4), kdebase-workspace-dev(>= 4:4.3.4), libx11-dev
 Standards-Version: 3.9.2

@@ -1,7 +1,9 @@
 kde-style-qtcurve (1.8.9-1) unstable; urgency=low
 
   * New upstream release.
-  * New maintainer of the package. (Closes: #641953)
+  * New maintainer of the package,
+    Fathi Boudra is removed from Uploaders field.
+    (Closes: #641953)
   * Vcs-* fields in debian/control were updated.
   * File debian/copyright was rewritten in according to DEP-5.
     All files were rechecked, copyright information was updated.
