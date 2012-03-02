@@ -4,10 +4,11 @@ Priority: optional
 Maintainer: Boris Pek <tehnick-8@mail.ru>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.4),
  kdelibs5-dev (>= 4:4.3.4), kdebase-workspace-dev(>= 4:4.3.4), libx11-dev
-Standards-Version: 3.9.3
 Homepage: http://www.kde-look.org/content/show.php?content=40492
 Vcs-Git: git://github.com/tehnick/kde-style-qtcurve-debian.git
 Vcs-Browser: https://github.com/tehnick/kde-style-qtcurve-debian
+Standards-Version: 3.9.3
+DM-Upload-Allowed: yes
 
 Package: kde-style-qtcurve
 Architecture: any
@@ -40,6 +41,7 @@ Description: QtCurve window decoration for KWin
  package.
 
 Package: qtcurve-i18n
+Section: localization
 Architecture: all
 Depends: ${misc:Depends}
 Description: Translation files for QtCurve
@@ -50,6 +52,7 @@ Description: Translation files for QtCurve
  pleasing.
 
 Package: qtcurve
+Section: metapackages
 Architecture: any
 Depends: ${misc:Depends},
  kde-style-qtcurve, kwin-style-qtcurve,

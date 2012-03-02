@@ -1,3 +1,14 @@
+kde-style-qtcurve (1.8.11-1) unstable; urgency=low
+
+  * Update to stable release 1.8.11.
+  * Bumped Standards-Version to 3.9.3.
+  * URL in Format field was updated in debian/copyright.
+  * Meta-package qtcurve was moved to new archive section metapackages.
+  * Package qtcurve-i18n was moved to archive section localization.
+  * Added string `DM-Upload-Allowed: yes' in debian/control.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Sat, 03 Mar 2012 01:14:50 +0200
+
 kde-style-qtcurve (1.8.9-1) unstable; urgency=low
 
   * New upstream release.
