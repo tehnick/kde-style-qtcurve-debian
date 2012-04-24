@@ -1,3 +1,14 @@
+kde-style-qtcurve (1.8.12-1) unstable; urgency=low
+
+  * Update to stable release 1.8.12.
+  * debian/patches/* were updated:
+    - files 01_ftbfs_missing_terminating_characher_bug541667.diff and
+      03_fix_spelling_errors.diff were deleted (accepted in upstream).
+    - file 02_bypass_braindead_buildsystem.diff was renamed
+  * Fixes from upstream: fixed problem with GoldenDict. (Closes: #638629)
+
+ -- Boris Pek <tehnick-8@mail.ru>  Wed, 25 Apr 2012 00:49:00 +0300
+
 kde-style-qtcurve (1.8.11-1) unstable; urgency=low
 
   * Update to stable release 1.8.11.
