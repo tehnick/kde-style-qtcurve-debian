@@ -1,3 +1,11 @@
+kde-style-qtcurve (1.8.12-2) unstable; urgency=low
+
+  * debian/rules was updated:
+    - now uscan options are used instead of direct using of mv command
+    - used hardening flags in compiler options
+
+ -- Boris Pek <tehnick-8@mail.ru>  Sun, 10 Jun 2012 16:51:20 +0300
+
 kde-style-qtcurve (1.8.12-1) unstable; urgency=low
 
   * Update to stable release 1.8.12.
