@@ -1,3 +1,12 @@
+kde-style-qtcurve (1.8.14-2) experimental; urgency=low
+
+  * Rename package qtcurve-i18n to qtcurve-l10n.
+    New package provides virtual package qtcurve-i18n for smooth transition.
+  * Fix get-orig-source section in according with Debian Policy §4.9.
+  * Remove obsolete DM-Upload-Allowed flag.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Wed, 24 Oct 2012 07:26:55 +0300
+
 kde-style-qtcurve (1.8.14-1) experimental; urgency=low
 
   * Update to stable release 1.8.14.
