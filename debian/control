@@ -39,10 +39,13 @@ Description: QtCurve window decoration for KWin
  The corresponding GTK+ theme engine can be found in gtk2-engines-qtcurve
  package.
 
-Package: qtcurve-i18n
+Package: qtcurve-l10n
 Section: localization
 Architecture: all
 Depends: ${misc:Depends}
+Provides: qtcurve-i18n
+Replaces: qtcurve-i18n
+Conflicts: qtcurve-i18n
 Description: Translation files for QtCurve
  This package contains translation files for QtCurve.
  .
@@ -55,13 +58,13 @@ Section: metapackages
 Architecture: any
 Depends: ${misc:Depends},
  kde-style-qtcurve, kwin-style-qtcurve,
- gtk2-engines-qtcurve, qtcurve-i18n
+ gtk2-engines-qtcurve, qtcurve-l10n
 Description: Unified window decoration for KDE and GTK+ (meta-package)
  This package installs all packages related with QtCurve:
   * kde-style-qtcurve
   * kwin-style-qtcurve
   * gtk2-engines-qtcurve
-  * qtcurve-i18n
+  * qtcurve-l10n
  .
  QtCurve is a set of widget styles for KDE and GTK+. It provides a consistent
  look between KDE and GTK+ applications, which is easy on the eyes and visually
