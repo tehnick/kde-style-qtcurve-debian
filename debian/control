@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.4),
 Homepage: http://www.kde-look.org/content/show.php?content=40492
 Vcs-Git: git://github.com/tehnick/kde-style-qtcurve-debian.git
 Vcs-Browser: https://github.com/tehnick/kde-style-qtcurve-debian
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 
 Package: kde-style-qtcurve
 Architecture: any
