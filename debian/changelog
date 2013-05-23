@@ -1,3 +1,12 @@
+kde-style-qtcurve (1.8.14-3) unstable; urgency=low
+
+  * Move package to unstable: no changes required.
+  * Bump Standards-Version to 3.9.4 (was 3.9.3): no changes required.
+  * Add debian/patches/add-russian-translation: add Russian localization file.
+  * Update years in debian/copyright.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Thu, 23 May 2013 20:44:37 +0300
+
 kde-style-qtcurve (1.8.14-2) experimental; urgency=low
 
   * Rename package qtcurve-i18n to qtcurve-l10n.
